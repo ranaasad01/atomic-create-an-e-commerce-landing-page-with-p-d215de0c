@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "new-arrivals": "New Arrivals",
+    "collections": "Collections",
+    "shop": "Shop",
+    "about": "About"
+  },
+  "navbar": [
+    { "label": "New Arrivals", "href": "#featured-products" },
+    { "label": "Collections", "href": "#collections" },
+    { "label": "Shop", "href": "#shop-by-category" },
+    { "label": "About", "href": "#about" }
+  ],
+  "hero": {
+    "eyebrow": "New Season",
+    "heading": "Quiet Complexity. Enduring Grace.",
+    "body": "Discover a curated edit of pieces that speak softly and stay forever. Each season, we source only what endures — crafted for the woman who knows exactly who she is.",
+    "cta": "Explore the Collection"
+  },
+  "featured-products": [
+    { "name": "Atelier Drape Coat", "category": "Outerwear", "price": "895", "badge": "New" },
+    { "name": "Silk Bias Midi Dress", "category": "Dresses", "price": "420", "badge": "New" },
+    { "name": "Cashmere Ribbed Turtleneck", "category": "Knitwear", "price": "310", "badge": "" },
+    { "name": "Wide-Leg Tailored Trouser", "category": "Trousers", "price": "285", "badge": "Sale" },
+    { "name": "Merino Wrap Cardigan", "category": "Knitwear", "price": "340", "badge": "" },
+    { "name": "Structured Leather Tote", "category": "Accessories", "price": "560", "badge": "New" },
+    { "name": "Linen Blazer in Ivory", "category": "Blazers", "price": "475", "badge": "" },
+    { "name": "Pleated Satin Blouse", "category": "Tops", "price": "195", "badge": "Sale" }
+  ],
+  "featured-products-section": {
+    "heading": "New Arrivals",
+    "body": "The season's most considered pieces, selected for their craft, material, and quiet confidence.",
+    "cta": "View All New Arrivals"
+  },
+  "shop-by-category": [
+    { "name": "Dresses", "href": "#shop-by-category", "image": "/images/category-dresses-editorial.jpg" },
+    { "name": "Outerwear", "href": "#shop-by-category", "image": "/images/category-outerwear-coats.jpg" },
+    { "name": "Knitwear", "href": "#shop-by-category", "image": "/images/category-knitwear-cashmere.jpg" },
+    { "name": "Accessories", "href": "#shop-by-category", "image": "/images/category-accessories-leather.jpg" },
+    { "name": "Blazers & Suiting", "href": "#shop-by-category", "image": "/images/category-blazers-tailoring.jpg" },
+    { "name": "Shoes", "href": "#shop-by-category", "image": "/images/category-shoes-heels.jpg" }
+  ],
+  "shop-by-category-section": {
+    "heading": "Shop by Category",
+    "body": "Every wardrobe need, thoughtfully curated.",
+    "cta": "View All"
+  },
+  "collections": [
+    { "title": "The Ivory Edit", "subtitle": "Monochrome minimalism in cream, bone, and white. Effortless from morning to evening.", "size": "large", "image": "/images/collection-ivory-edit-monochrome.jpg" },
+    { "title": "Autumn Atelier", "subtitle": "Rich textures and warm earth tones. Cashmere, suede, and structured wool.", "size": "medium", "image": "/images/collection-autumn-atelier-earth.jpg" },
+    { "title": "After Dark", "subtitle": "Fluid silhouettes and muted metallics for evenings that linger.", "size": "medium", "image": "/images/collection-after-dark-evening.jpg" },
+    { "title": "The Everyday Luxe", "subtitle": "Elevated basics that replace everything you already own.", "size": "small", "image": "/images/collection-everyday-luxe-basics.jpg" },
+    { "title": "Studio to Street", "subtitle": "Relaxed tailoring that moves with you, wherever the day leads.", "size": "small", "image": "/images/collection-studio-street-tailoring.jpg" }
+  ],
+  "collections-section": {
+    "heading": "Curated Collections",
+    "body": "Editorially assembled stories — each collection is a mood, a moment, a way of moving through the world.",
+    "cta": "Browse All Collections"
+  },
+  "trust-badges": [
+    { "label": "Complimentary Shipping", "description": "Free worldwide shipping on all orders over $150. Delivered in 3–5 business days." },
+    { "label": "24 / 7 Client Care", "description": "Our style advisors are available around the clock via chat, email, or phone." },
+    { "label": "Secure Payments", "description": "All transactions are encrypted and protected. We accept all major cards and PayPal." },
+    { "label": "Effortless Returns", "description": "Changed your mind? Return any unworn item within 30 days, no questions asked." }
+  ],
+  "newsletter": {
+    "heading": "The Inner Circle",
+    "body": "Join our private edit. Be first to discover new arrivals, exclusive collections, and invitations to in-store events. No noise — only what matters.",
+    "placeholder": "Your email address",
+    "cta": "Subscribe",
+    "success": "You are now part of the Inner Circle."
+  },
+  "footer": [
+    {
+      "heading": "Shop",
+      "links": ["New Arrivals", "Collections", "Dresses", "Outerwear", "Knitwear", "Accessories"]
+    },
+    {
+      "heading": "Company",
+      "links": ["Our Story", "Sustainability", "Careers", "Press"]
+    },
+    {
+      "heading": "Customer Care",
+      "links": ["Shipping & Delivery", "Returns & Exchanges", "Size Guide", "Contact Us", "FAQs"]
+    }
+  ],
+  "footer.copyright": "© 2024 Lumina Boutique. All rights reserved.",
+  "footer.privacy": "Privacy Policy",
+  "footer.terms": "Terms of Service"
+}

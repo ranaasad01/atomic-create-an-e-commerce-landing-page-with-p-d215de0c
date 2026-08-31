@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "new-arrivals": "Novedades",
+    "collections": "Colecciones",
+    "shop": "Tienda",
+    "about": "Nosotros"
+  },
+  "navbar": [
+    { "label": "Novedades", "href": "#featured-products" },
+    { "label": "Colecciones", "href": "#collections" },
+    { "label": "Tienda", "href": "#shop-by-category" },
+    { "label": "Nosotros", "href": "#about" }
+  ],
+  "hero": {
+    "eyebrow": "Nueva Temporada",
+    "heading": "Complejidad Silenciosa. Gracia Perdurable.",
+    "body": "Descubre una selección de piezas que hablan suavemente y permanecen para siempre. Cada temporada, seleccionamos solo lo que perdura.",
+    "cta": "Explorar la Colección"
+  },
+  "featured-products": [
+    { "name": "Abrigo Drapeado Atelier", "category": "Ropa Exterior", "price": "895", "badge": "Nuevo" },
+    { "name": "Vestido Midi de Seda", "category": "Vestidos", "price": "420", "badge": "Nuevo" },
+    { "name": "Jersey de Cachemira", "category": "Punto", "price": "310", "badge": "" },
+    { "name": "Pantalón Ancho Sastre", "category": "Pantalones", "price": "285", "badge": "Oferta" },
+    { "name": "Cárdigan Merino", "category": "Punto", "price": "340", "badge": "" },
+    { "name": "Bolso de Cuero Estructurado", "category": "Accesorios", "price": "560", "badge": "Nuevo" },
+    { "name": "Blazer de Lino en Marfil", "category": "Blazers", "price": "475", "badge": "" },
+    { "name": "Blusa de Satén Plisada", "category": "Tops", "price": "195", "badge": "Oferta" }
+  ],
+  "featured-products-section": {
+    "heading": "Novedades",
+    "body": "Las piezas más consideradas de la temporada, seleccionadas por su artesanía, material y confianza silenciosa.",
+    "cta": "Ver Todas las Novedades"
+  },
+  "shop-by-category": [
+    { "name": "Vestidos", "href": "#shop-by-category", "image": "/images/category-dresses-editorial.jpg" },
+    { "name": "Ropa Exterior", "href": "#shop-by-category", "image": "/images/category-outerwear-coats.jpg" },
+    { "name": "Punto", "href": "#shop-by-category", "image": "/images/category-knitwear-cashmere.jpg" },
+    { "name": "Accesorios", "href": "#shop-by-category", "image": "/images/category-accessories-leather.jpg" },
+    { "name": "Blazers y Trajes", "href": "#shop-by-category", "image": "/images/category-blazers-tailoring.jpg" },
+    { "name": "Zapatos", "href": "#shop-by-category", "image": "/images/category-shoes-heels.jpg" }
+  ],
+  "shop-by-category-section": {
+    "heading": "Comprar por Categoría",
+    "body": "Cada necesidad del guardarropa, cuidadosamente seleccionada.",
+    "cta": "Ver Todo"
+  },
+  "collections": [
+    { "title": "La Edición Marfil", "subtitle": "Minimalismo monocromático en crema, hueso y blanco.", "size": "large", "image": "/images/collection-ivory-edit-monochrome.jpg" },
+    { "title": "Atelier de Otoño", "subtitle": "Texturas ricas y tonos tierra cálidos. Cachemira, ante y lana estructurada.", "size": "medium", "image": "/images/collection-autumn-atelier-earth.jpg" },
+    { "title": "Después del Anochecer", "subtitle": "Siluetas fluidas y metálicos apagados para noches que perduran.", "size": "medium", "image": "/images/collection-after-dark-evening.jpg" },
+    { "title": "El Lujo Cotidiano", "subtitle": "Básicos elevados que reemplazan todo lo que ya tienes.", "size": "small", "image": "/images/collection-everyday-luxe-basics.jpg" },
+    { "title": "Del Estudio a la Calle", "subtitle": "Sastrería relajada que se mueve contigo.", "size": "small", "image": "/images/collection-studio-street-tailoring.jpg" }
+  ],
+  "collections-section": {
+    "heading": "Colecciones Curadas",
+    "body": "Historias ensambladas editorialmente — cada colección es un estado de ánimo, un momento.",
+    "cta": "Ver Todas las Colecciones"
+  },
+  "trust-badges": [
+    { "label": "Envío Gratuito", "description": "Envío mundial gratuito en pedidos superiores a $150. Entregado en 3–5 días hábiles." },
+    { "label": "Atención 24 / 7", "description": "Nuestros asesores de estilo están disponibles las 24 horas por chat, email o teléfono." },
+    { "label": "Pagos Seguros", "description": "Todas las transacciones están cifradas y protegidas. Aceptamos todas las tarjetas principales y PayPal." },
+    { "label": "Devoluciones Fáciles", "description": "¿Cambiaste de opinión? Devuelve cualquier artículo sin usar en 30 días, sin preguntas." }
+  ],
+  "newsletter": {
+    "heading": "El Círculo Íntimo",
+    "body": "Únete a nuestra edición privada. Sé el primero en descubrir novedades, colecciones exclusivas e invitaciones a eventos.",
+    "placeholder": "Tu dirección de email",
+    "cta": "Suscribirse",
+    "success": "Ahora formas parte del Círculo Íntimo."
+  },
+  "footer": [
+    {
+      "heading": "Tienda",
+      "links": ["Novedades", "Colecciones", "Vestidos", "Ropa Exterior", "Punto", "Accesorios"]
+    },
+    {
+      "heading": "Empresa",
+      "links": ["Nuestra Historia", "Sostenibilidad", "Carreras", "Prensa"]
+    },
+    {
+      "heading": "Atención al Cliente",
+      "links": ["Envío y Entrega", "Devoluciones", "Guía de Tallas", "Contáctanos", "Preguntas Frecuentes"]
+    }
+  ],
+  "footer.copyright": "© 2024 Lumina Boutique. Todos los derechos reservados.",
+  "footer.privacy": "Política de Privacidad",
+  "footer.terms": "Términos de Servicio"
+}

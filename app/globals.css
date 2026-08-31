@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Aura Luxury Retail Design System */
+  --color-surface: #faf9fb;
+  --color-surface-dim: #dbd9dc;
+  --color-surface-bright: #faf9fb;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f3f5;
+  --color-surface-container: #efedef;
+  --color-surface-container-high: #e9e8ea;
+  --color-surface-container-highest: #e3e2e4;
+  --color-on-surface: #1b1c1d;
+  --color-on-surface-variant: #464557;
+  --color-inverse-surface: #303032;
+  --color-inverse-on-surface: #f2f0f2;
+  --color-outline: #767589;
+  --color-outline-variant: #c6c4db;
+  --color-primary: #1d00c3;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #2e10ff;
+  --color-on-primary-container: #bebeff;
+  --color-secondary: #5f5e5e;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #e5e2e1;
+  --color-tertiary: #383a3c;
+  --color-on-tertiary: #ffffff;
+  --color-error: #ba1a1a;
+  --color-background: #faf9fb;
+  --color-on-background: #1b1c1d;
+
+  /* Typography — next/font injects --font-garamond and --font-hanken on <html>;
+     define fallback values here so var() references resolve even before hydration */
+  --font-garamond: "EB Garamond", Georgia, serif;
+  --font-hanken: "Hanken Grotesk", system-ui, sans-serif;
+  --font-display: var(--font-garamond), Georgia, serif;
+  --font-body: var(--font-hanken), system-ui, sans-serif;
+
+  /* Brand accent — warm champagne gold */
+  --brand-accent: #c9a96e;
+
+  /* Semantic surface tokens */
+  --page-bg: #faf9f7;
+  --hero-bg: #1a1814;
+  --tinted-bg: #f4f1ec;
+  --dark-section-bg: #1a1814;
+  --card-surface: #ffffff;
+  --image-bg: #e8e4de;
+
+  /* Semantic text tokens */
+  --primary-text: #1a1814;
+  --muted-text: #6b6560;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --border: 240 5.9% 90%;
+    --muted-foreground: 240 3.8% 46.1%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 500;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
